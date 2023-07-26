@@ -1,6 +1,5 @@
 package in.ineuron.employee;
 
-import java.lang.reflect.Array;
 import java.util.Arrays;
 import java.util.List;
 import java.util.Map;
@@ -9,13 +8,16 @@ import java.util.Set;
 import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.stereotype.Component;
 
+import in.ineuron.company.Company;
 
-@Component
+
+@Component("employee")
 @ConfigurationProperties(prefix = "org.xyz")
 public class Employee {
 
 	String empName;
 	long empId;
+	Company company;
 	String[] empSkills;
 	List<String> empProjects;
 	Set<Long> empCellNo;
@@ -31,6 +33,12 @@ public class Employee {
 	}
 	public void setEmpId(long empId) {
 		this.empId = empId;
+	}
+	public Company getCompany() {
+		return company;
+	}
+	public void setCompany(Company company) {
+		this.company = company;
 	}
 	public String[] getEmpSkills() {
 		return empSkills;
@@ -58,10 +66,12 @@ public class Employee {
 	}
 	@Override
 	public String toString() {
-		return "Employee [empName=" + empName + ", empId=" + empId + ", empSkills=" + Arrays.toString(empSkills)
-				+ ", empProjects=" + empProjects + ", empCellNo=" + empCellNo + ", empCertifications="
-				+ empCertifications + "]";
+		return "Employee [empName=" + empName + ", empId=" + empId + ", company=" + company + ", empSkills="
+				+ Arrays.toString(empSkills) + ", empProjects=" + empProjects + ", empCellNo=" + empCellNo
+				+ ", empCertifications=" + empCertifications + "]";
 	}
+	
+	
 	
 	
 	
