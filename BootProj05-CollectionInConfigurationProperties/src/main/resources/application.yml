@@ -1,0 +1,20 @@
+org:
+  xyz:
+    emp-id: 798789
+    emp-name: John Doe
+    company:
+      comp-name: IndianMNC
+      comp-size: 20000
+    emp-cell-no:
+    - 999999999
+    - 444455555
+    emp-projects:
+    - ProjectX
+    - ProjectY
+    emp-skills:
+    - JAVA
+    - CSharp
+    emp-certifications:
+      microsoft: AZ900
+      redhat : RHCSA            
+      
