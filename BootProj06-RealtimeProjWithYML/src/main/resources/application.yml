@@ -1,0 +1,6 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    password: Folio@9480m
+    url: jdbc:mysql:///enterprisejavabatch
+    username: root
