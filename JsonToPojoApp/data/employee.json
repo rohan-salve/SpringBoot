@@ -1,0 +1,13 @@
+{
+	"id" : 58,
+	"firstName" : "Rohan",
+	"lastName" : "Salve",
+	"active" : true,
+	"address" :
+	{
+		"dist" : "pune",
+		"state" : "Maharahstra",
+		"pincode" : 411001
+	},
+	"language": ["marathi","hindi","english","german"]
+}

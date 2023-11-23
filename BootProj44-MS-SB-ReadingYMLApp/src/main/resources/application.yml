@@ -1,0 +1,7 @@
+demo:
+  properties:
+    greetMsg: Hie, good morning
+    testMsg: This is Test Message
+    welcomeMsg: Welcome Message Here
+server:
+  port: 3333

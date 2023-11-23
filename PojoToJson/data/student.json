@@ -1,0 +1,14 @@
+{
+	"id" : 7,
+	"firstName" : "John",
+	"lastName" : "Doe",
+	"rollNo"	: 9,
+	"active" : true,
+	"address" :
+	{
+		"dist" : "pune",
+		"state" : "Maharahstra",
+		"pincode" : 411001
+	},
+	"language": ["JAVA","C#","C","Ruby"]
+}
